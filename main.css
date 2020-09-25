@@ -1,6 +1,10 @@
 header {
     text-align: center;
 }
+header img {
+    height: 200px;
+    width: 200px;
+}
 body {
     background-color: burlywood;
 }
@@ -19,6 +23,11 @@ header h1 {
 li a {
     color: whitesmoke;
 }
+.brown .nav-item a:hover {
+    background-color: rgb(243, 207, 207);
+    color: whitesmoke;
+}
 .brown .active a, .brown .active a:hover {
     background-color: brown;
+    color: whitesmoke;
 }
