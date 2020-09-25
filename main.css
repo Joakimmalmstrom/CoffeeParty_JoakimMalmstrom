@@ -1,15 +1,32 @@
-header {
+.header-container {
+    position: relative;
     text-align: center;
 }
+.header-text-coffee {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+.header-text-party {
+    position: absolute;
+    top: 50%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+}
 header img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+}
+header h1 {
+    font-size: 60px;
 }
 body {
     background-color: burlywood;
 }
 footer {
-    background: grey;
+    background: #784321;
+    color: whitesmoke;
     text-align: center;
     position: fixed; 
     padding: 10px 10px 0px 10px; 
@@ -17,17 +34,14 @@ footer {
     width: 100%; 
     height: 40px; 
 }
-header h1 {
-    font-size: 60px;
-}
 li a {
     color: whitesmoke;
 }
-.brown .nav-item a:hover {
+.nav .nav-item a:hover {
     background-color: rgb(243, 207, 207);
     color: whitesmoke;
 }
-.brown .active a, .brown .active a:hover {
+.nav .active a, .nav .active a:hover {
     background-color: brown;
     color: whitesmoke;
 }
