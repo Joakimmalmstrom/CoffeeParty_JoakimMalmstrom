@@ -45,3 +45,25 @@ li a {
     background-color: brown;
     color: whitesmoke;
 }
+.media-body-contact {
+    position: absolute;
+    text-align: center;
+    left: 190px;
+    top: 35px;
+ }
+ .media-body-contact ul {
+    display: table;
+    margin: 0 auto;
+ }
+.about-us {
+    text-align: center;
+}
+.about-us h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us p {
+    text-align: justify;
+    line-height: 30px;
+}
