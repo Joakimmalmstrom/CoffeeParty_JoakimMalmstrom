@@ -10,26 +10,29 @@
     <link rel="stylesheet" href="produkter.html">
     <link rel="stylesheet" href="om-oss.html">
 
-    <title>Coffee Party</title>
+    <title>Kaffe-Party</title>
 
     <style>
-
     </style>
 </head>
 
 <body>
     <!--Header with logo/name-->
     <header>
-        <div class="header-container">
-            <div class="header-text-coffee">
-                <h1>KAFFE</h1>
+        <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-sm-12 col-lg-12 header-text">
+                    <h1>KAFFEPARTY</h1>
+                </div>
             </div>
-            <div class="header-text-party">
-                <h1>PARTY</h1>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-sm-12 col-lg-12 header-logo">
+                    <img src="images\coffee-logo.png" class="center" alt="Coffee Logo">
+                </div>
             </div>
-            <img src="C:\Users\malms\source\vscode\CoffeeParty_JoakimMalmstrom\images\coffee-logo.png" alt="Coffee Logo">
         </div>
-    </header>
+    </header>   
+
     <!--Nav Bar-->
     <ul class="nav nav-pills justify-content-center nav">
         <li class="active">
@@ -42,88 +45,100 @@
             <a class="nav-link" href="om-oss.html">Om Oss</a>
         </li>
     </ul>
-    <br>
-    <!--FIRST row-->
-    <div class="row">
-        <div class="col"></div>
-        <!--Vilka vi är-->
-        <div class="col">
-            <div class="media border p-3">
-                <img src="C:\Users\malms\source\vscode\CoffeeParty_JoakimMalmstrom\images\random-acts-kindness-youth-article-600x400.jpg"
-                    alt="Who We Are" class="mr-3 mt-3 rounded" style="width:150px;">
-                <div class="media-body">
-                    <h4>Vilka vi är<small><i></i></small></h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
-                </div>
-            </div>
-        </div>
-        <!--Vad gör vi?-->
-        <div class="col">
-            <div class="media border p-3">
-                <img src="C:\Users\malms\source\vscode\CoffeeParty_JoakimMalmstrom\images\is-it-normal-to-talk-to-random-people-online-1-new.jpg"
-                    alt="Who We Are" class="mr-3 mt-3 rounded-circle" style="width:135px;">
-                <div class="media-body">
-                    <h4>Vad gör vi?<small><i></i></small></h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                        purpose (injected humour and the like).</p>
-                </div>
-            </div>
-        </div>
-        <div class="col"></div>
-    </div>
-    <br>
-    <!--SECOND row-->
-    <div class="row">
-        <div class="col"></div>
-        <!--Varför oss?-->
-        <div class="col">
-            <div class="media border p-3">
-                <img src="C:\Users\malms\source\vscode\CoffeeParty_JoakimMalmstrom\images\10.jpg"
-                    alt="Who We Are" class="mr-3 mt-3 rounded-circle" style="width:150px;">
-                <div class="media-body">
-                    <h4>Varför oss?<small><i></i></small></h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
-                </div>
-            </div>
-        </div>
-        <!--Kaffeparty, så fungerar det!-->
-        <div class="col">
-            <div class="media border p-3">
-                <img src="C:\Users\malms\source\vscode\CoffeeParty_JoakimMalmstrom\images\people-drinking-coffee.jpg"
-                    alt="Who We Are" class="mr-3 mt-3 rounded" style="width:135px;">
-                <div class="media-body">
-                    <h4>Kaffeparty, så fungerar det!<small><i></i></small></h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                        purpose (injected humour and the like).</p>
-                </div>
-            </div>
-        </div>
-        <div class="col"></div>
-    </div>
 
-    <footer>&copy Joakim Malmström 2020</footer>
+    <br>
+
+    <div class="container">
+        <!--FIRST row-->
+        <div class="row justify-content-around">
+            <!--Vilka vi är-->
+            <div class="col-12 col-sm-12 col-lg-5 my-col">
+                <img src="images\random-acts-kindness-youth-article-600x400.jpg" alt="Who We Are"
+                    class="mx-auto d-block" style="width: inherit;">
+                <div class="media-body">
+                    <h4>Vilka vi är</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions
+                        of
+                        Lorem Ipsum.</p>
+                </div>
+            </div>
+            <!--Vad gör vi?-->
+            <div class="col-12 col-sm-12 col-lg-5 my-col">
+                <img src="images\is-it-normal-to-talk-to-random-people-online-1-new.jpg" alt="What we do"
+                    class="mx-auto d-block" style="width:inherit;">
+                <div class="media-body">
+                    <h4>Vad gör vi?</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a
+                        page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                        normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look
+                        like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
+                        as
+                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                        in
+                        their infancy. Various versions have evolved over the years, sometimes by accident,
+                        sometimes on
+                        purpose (injected humour and the like).</p>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <!--SECOND row-->
+            <div class="col-12 col-sm-12 col-lg-5 my-col">
+                <img src="images\10.jpg" alt="Why us" class="mx-auto d-block" style="width:inherit;">
+                <div class="media-body">
+                    <h4>Varför oss?</small></h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions
+                        of
+                        Lorem Ipsum.</p>
+                </div>
+            </div>
+            <!--Kaffeparty, så fungerar det!-->
+            <div class="col-12 col-sm-12 col-lg-5 my-col">
+                <img src="images\people-drinking-coffee.jpg" alt="Coffee Party, how it works" class="mx-auto d-block"
+                    style="width:inherit;">
+                <div class="media-body">
+                    <h4>Kaffeparty, så fungerar det!</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a
+                        page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                        normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look
+                        like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
+                        as
+                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                        in
+                        their infancy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            &copy Joakim Malmström 2020
+        </div>
+    </footer>
+
 </body>
 
 </html>
