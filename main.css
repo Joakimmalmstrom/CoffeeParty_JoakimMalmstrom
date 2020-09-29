@@ -8,7 +8,8 @@ body {
     display: block; 
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-bottom: 15px;
+    width: 25%;
   }
 .my-subheader {
     text-align: center;
@@ -17,7 +18,7 @@ body {
     font-weight: bolder;
 }
 header h1 {
-    font-size:5em;
+    font-size: 30   px;
     font:bold 7.5vw/1.6 'Signika', sans-serif;
     user-select:none;
     text-align: center;
@@ -32,7 +33,6 @@ header h1 span { display:inline-block; animation:float .2s ease-in-out infinite;
  @keyframes float {
   0%,100%{ transform:none; }
 }
-
 footer {
     background: #784321;
     color: whitesmoke;
@@ -44,10 +44,6 @@ footer {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-}
-.my-home-img {
-    width: 364px;
-    height: 242px;
 }
 .my-col {
     border-style: outset;
@@ -67,7 +63,6 @@ footer {
     margin-top: 5px;
     margin-bottom: 8px;
 }
-
 li a {
     color: whitesmoke;
 }
@@ -93,7 +88,7 @@ li a {
 @media only screen and (max-width: 600px) {
     .center {
         width: 150px;
-        height: 200px;
+        height: 150px;
     }
   }
 .specs {
@@ -111,10 +106,10 @@ li a {
     width: 50%;
 }
 
-span:nth-child(4n) { color:hsl(50, 75%, 55%); text-shadow:1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
-span:nth-child(4n-1) { color:hsl(135, 35%, 55%); text-shadow:1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%); }
-span:nth-child(4n-2) { color:hsl(155, 35%, 60%); text-shadow:1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%); }
-span:nth-child(4n-3) { color:hsl(30, 65%, 60%); text-shadow:1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
+h1 span:nth-child(4n) { color:hsl(50, 75%, 55%); text-shadow:1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+h1 span:nth-child(4n-1) { color:hsl(135, 35%, 55%); text-shadow:1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%); }
+h1 span:nth-child(4n-2) { color:hsl(155, 35%, 60%); text-shadow:1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%); }
+h1 span:nth-child(4n-3) { color:hsl(30, 65%, 60%); text-shadow:1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
 
 h1 span:nth-child(2){ animation-delay:.05s; }
 h1 span:nth-child(3){ animation-delay:.1s; }
